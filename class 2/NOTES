@@ -1,0 +1,13 @@
+python : 
+1. comments : line of code in a source code file which provide some information about anything... it can not executed or read by interpreter or compiler. 
+
+single line comments  : (# hash)
+
+multiple line comments  :  ( """six quotes""")
+
+----------------------------------------------------------------------------------------------------------------
+
+for printing any line of statement or for output using function 
+ => print() 
+ 
+ but print function in python get automatically change thier  lines 	
