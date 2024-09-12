@@ -1,0 +1,11 @@
+a  = 10
+print("The value of a : ",a)
+print("The type of a : ",type(a))
+print("\n\nInt type cast into float \n\n")
+a = float(a)
+print("The value of a : ",a)
+print("The type of a : ",type(a))
+print("\n\n float into Int type cast \n\n")
+a = int(a)
+print("The value of a : ",a)
+print("The type of a :",type(a))
