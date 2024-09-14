@@ -1,0 +1,70 @@
+Arithmetic Operators
+
+    Write a program to calculate the sum of two numbers.
+    Write a program to find the difference between two numbers.
+    Write a program to multiply two numbers and display the result.
+    Write a program to divide two numbers and handle division by zero.
+    Write a program to find the remainder when one number is divided by another.
+    Write a program to calculate the result of raising one number to the power of another.
+
+Comparison Operators
+
+    Write a program to check if one number is greater than another.
+    Write a program to check if one number is less than another.
+    Write a program to check if two numbers are equal.
+    Write a program to check if two numbers are not equal.
+    Write a program to check if one number is greater than or equal to another.
+    Write a program to check if one number is less than or equal to another.
+
+Logical Operators
+
+    Write a program to check if both conditions are true: (x > 10) and (y < 20).
+    Write a program to check if at least one of the conditions is true: (x > 10) or (y < 20).
+    Write a program to check if neither condition is true: not (x > 10) and not (y < 20).
+    Write a program to determine if a number is between 10 and 20 using logical operators.
+    Write a program to evaluate a complex logical expression and print the result.
+
+Bitwise Operators
+
+    Write a program to perform a bitwise AND operation on two integers.
+    Write a program to perform a bitwise OR operation on two integers.
+    Write a program to perform a bitwise XOR operation on two integers.
+    Write a program to perform a bitwise NOT operation on an integer.
+    Write a program to perform a left shift operation on an integer.
+    Write a program to perform a right shift operation on an integer.
+
+Assignment Operators
+
+    Write a program to demonstrate the use of the += operator.
+    Write a program to demonstrate the use of the -= operator.
+    Write a program to demonstrate the use of the *= operator.
+    Write a program to demonstrate the use of the /= operator.
+    Write a program to demonstrate the use of the %= operator.
+    Write a program to demonstrate the use of the **= operator.
+    Write a program to demonstrate the use of the &= operator.
+    Write a program to demonstrate the use of the |= operator.
+    Write a program to demonstrate the use of the ^= operator.
+    Write a program to demonstrate the use of the <<= operator.
+    Write a program to demonstrate the use of the >>= operator.
+
+Mixed Operators
+
+    Write a program to calculate the result of the following expression: 5 + 2 * 3 - 4 / 2.
+    Write a program to check if a number is even using modulus operator.
+    Write a program to swap the values of two variables using arithmetic operators.
+    Write a program to swap the values of two variables using bitwise XOR operator.
+    Write a program to find the absolute value of a number without using built-in functions.
+    Write a program to convert a decimal number to binary using bitwise operators.
+
+Advanced Questions
+
+    Write a program that uses ternary operators to find the maximum of three numbers.
+    Write a program to evaluate the result of a complex expression involving all types of operators.
+    Write a program to determine the parity (odd or even) of a number using bitwise operators.
+    Write a program that takes user input and performs different operations based on the input value.
+    Write a program to calculate the factorial of a number using arithmetic operators.
+    Write a program to perform matrix addition using nested loops and arithmetic operators.
+    Write a program to implement a simple calculator that performs basic arithmetic operations.
+    Write a program to check if a number is a power of two using bitwise operators.
+    Write a program to simulate a simple game that uses logical operators to determine win conditions.
+    Write a program that calculates the greatest common divisor (GCD) of two numbers using arithmetic operators.
