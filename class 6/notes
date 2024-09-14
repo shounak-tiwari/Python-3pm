@@ -1,0 +1,12 @@
+conditional (relational operators) which is use for making conditions
+ > greator than
+ < less than
+ >= ge
+ <= le
+ == 
+ !=
+logical operators ( and or not )
+membership operators  : in not in
+identity operators : is isnot
+assignment (=)
+arithemetic assignment operators (+=,-=,*=,//=,%=,**=)
