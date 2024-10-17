@@ -1,0 +1,6 @@
+concept : 2 how to create a class 
+for creating class in python use class keywords 
+inside the class we define or use 
+state / attributes / feilds => variables 
+identity
+behaviour / methods -> functions 

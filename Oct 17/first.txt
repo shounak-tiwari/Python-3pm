@@ -1,0 +1,25 @@
+"""object oriented programming system in python"""
+
+object oritend programming : Alan kay 1967 : security of application 
+
+python it is completely object oriented programming  
+
+1 . Who was developer of python programming ? 
+ans : Guido van rossum 
+
+
+how we can say that any programming is oop ?
+Alan kay was say that in thier thoery when any programming language support major and minior 
+piller of oops thats programming is known as oops 
+major piller : abstraction, encapsulation, modularity,inheritance (hierarchy). 
+minior piller : typing (typecasting), concurrency, and persistence(polymorphisms) 
+
+
+1. what is class ?
+ans : 	A class is a blueprint for an object because it 
+	defines the structure, properties, and behaviors of an object. 
+	You can think of a class as a model that you use to create a specific object,
+	similar to how you use a blueprint to build a house
+
+
+
