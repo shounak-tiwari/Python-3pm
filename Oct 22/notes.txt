@@ -1,0 +1,3 @@
+constructor in python : constructor is a special mechenisms which is call auto
+matically when object is initilize with class in python constructor is 
+define using __init__()

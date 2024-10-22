@@ -1,0 +1,77 @@
+how to implimentation of class and object
+
+class : this keyword is use for define class in a python 
+
+pass : this keyword is use for showing empty class,function and block 
+
+how we declare class and how to use:
+
+source code :
+ 
+class Student:
+    pass
+    def intro():
+        print("This is first behavior of class")
+        
+Object_name = Student
+
+#Behavior calling us . operator
+
+Object_name.intro()
+
+
+output : 
+
+C:\Users\akash\Desktop\Python 3pm\Oct 18>py class1.py
+This is first behavior of class
+
+
+concept : - instance in python
+source code : 
+
+class student:
+    def get_data(self):
+        name = input("Enter the name of student : ")
+        age  = float(input("Enter the age of student  : "))
+        self.N = name
+        self.A = age
+    def show_data(self):
+        print("Name of student : ",self.N)
+        print("Age of student : ",self.A)
+
+obj = student()
+obj.get_data()
+obj.show_data()
+concept :- why use class and object it can not provide security or if provide then how we can 
+say that 
+source code : 
+class Dog_Record:
+    def Get_data(self):
+        self.name = input("Enter the name  : ")
+        self.age = float(input("Enter the age  : "))
+    def Show_data(self):
+        print("Name of dog : ",self.name)
+        print("Age of dog : ",self.age)
+s1 = Dog_Record()
+s1.Get_data()
+s1.Show_data()
+s2 = Dog_Record()
+s2.Get_data()
+s2.Show_data()
+s3 = Dog_Record()
+s3.Get_data()
+s3.Show_data()
+output : 
+C:\Users\akash\Desktop\Python 3pm\Oct 18>py class2.py
+Enter the name  : Tiger
+Enter the age  : 5
+Name of dog :  Tiger
+Age of dog :  5.0
+Enter the name  : Tommy
+Enter the age  : 2
+Name of dog :  Tommy
+Age of dog :  2.0
+Enter the name  : Kittu
+Enter the age  : 1
+Name of dog :  Kittu
+Age of dog :  1.0
