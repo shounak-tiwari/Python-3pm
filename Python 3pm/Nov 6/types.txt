@@ -1,0 +1,42 @@
+single inheritance 
+
+    parent 
+       |
+    child 
+
+
+multilevel inheritance 
+
+      parent
+        |
+    intermediate parent
+        |
+      child  
+
+    
+multiple inheritance
+
+    parent1         parent2
+        \           /
+         \         /
+            child 
+        
+
+    
+hierarchical inheritance 
+
+              parent
+        /               \
+    child1              child2
+    /   \               /   \
+child1.1 child1.2   child2.1 child2.2
+
+
+
+hybrid inheritance
+
+                child1
+    parent1                     parent2
+                child2
+
+
