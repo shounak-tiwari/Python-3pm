@@ -1,57 +1,116 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(16, 24, 77, 0.996);
 }
 
-.form-container {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
+
+
+nav{
+    padding-top: 20px;
+    padding-bottom:20px ;
+    background-image: linear-gradient(to right,purple,rgb(135, 27, 135),rgba(9, 9, 103, 0.934),rgba(9, 9, 103, 0.934),rgb(61, 20, 61));
+}
+
+.navbar{   padding: 0px;
+    margin: 0px;
+    /* padding: 10px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.brand-name  h1 {
+    font-size: 35px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    color: red;
     text-align: center;
+    font-family: "Trade Winds", system-ui;
 }
 
-h1 {
-    color: #333;
-    margin-bottom: 20px;
+
+
+
+.navbar-items{
+    /* z-index: 900; */
+    padding: 5px;
+    /* background-color: red; */
 }
 
-form label {
-    display: block;
-    margin: 10px 0 5px;
-    font-size: 14px;
-    color: #555;
-    text-align: left;
+.navbar-link{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 25px;
 }
 
-form input, form select, form button {
-    width: 100%;
+
+.navcls{
+    /* border: 2px solid black; */
+    height: auto;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+
+ .sec-1{
+    height: 500px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/623/233/non_2x/3d-illustration-education-tablet-with-education-icons-on-on-hi-tech-background-education-banner-vector.jpg);
+
+    position: relative;
+    background-color: rgb(12, 12, 75);
+}
+
+
+.slogan{
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    font-family: "Sour Gummy", serif;
+}
+
+
+.sec-2{
+    background-color: white;
+    /* height: 500px; */
+}
+
+
+.course-gallery {
+    padding: 20px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 90px;
+}
+
+.course-card {
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
+    border: 2px solid black;
+    width: 200px;
+    
 }
 
-form button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
+.img-cls {
+    display: flex;
+    justify-content: center;    
+        align-items: center;  
 }
 
-form button:hover {
-    background-color: #0056b3;
+.course-name{
+    text-align: center;
+    font-size: 25px;
 }
 
-form select {
-    background-color: #f9f9f9;
+.sec-3{
+    height: 100px;
 }

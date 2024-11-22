@@ -1,0 +1,19 @@
+*{
+    color: white;
+}
+
+.trainer-details{
+    font-size: 25px;
+    text-align: center;
+}
+
+.trainer-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.trainers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

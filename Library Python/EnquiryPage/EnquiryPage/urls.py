@@ -20,6 +20,9 @@ from EnquiryApp import views
 
 
 urlpatterns = [
-    path('',views.home,name='home'),
+    path('',views.main,name='main'),
+    path('home',views.home,name='home'),
+    path('record',views.Student_record,name='Student_record'),
+    path("login",views.login, name="login"),
     path('admin/', admin.site.urls),
 ]

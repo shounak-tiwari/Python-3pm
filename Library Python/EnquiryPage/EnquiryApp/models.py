@@ -4,7 +4,7 @@ from django.db import models
 
 class EnquiryData(models.Model):
     name = models.CharField(max_length=50)
-    contact = models.IntegerField()
+    contact = models.CharField(max_length=10)
     email = models.EmailField()
     course = models.CharField(max_length=50)
 

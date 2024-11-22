@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{%static 'css/record.css'%}">
+</head>
+<body>
+    {%  for x  in student_record%}
+
+    <table>
+        <tr>
+            <td>
+                {{x.name}}
+            </td>
+            <td>
+                {{x.contact}}
+            </td>
+            <td>
+                {{x.email}}
+            </td>
+            <td>
+                {{x.course}}
+            </td>
+
+        </tr>
+    </table>
+
+
+
+    {% endfor %}
+
+
+    <form action="{% url 'Student_record' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="contact" placeholder="Enter contact">
+        <input type="submit" value="Submit">
+    </form>
+    
+   
+
+     {% for x in  filterdata %}
+     <table>
+
+     <tr>
+        <td>{{ x.name }}</td>
+        <td>{{ x.contact }}</td>
+        <td>{{ x.email }}</td>
+        <td>{{ x.course }}</td>
+    </tr>
+     </table>
+     
+     {% endfor %}
+
+</body>
+</html>

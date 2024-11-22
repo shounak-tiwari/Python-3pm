@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Institute Inquiry Form</title>
     
-     <link rel="stylesheet" href = "{% static 'css/style.css' %}" />
+    <!-- <link rel="stylesheet" href="{%static 'css/style.css'%}"> -->
+     <link rel="stylesheet" href = "{% static 'css/design.css' %}" />
 </head>
 <body>
     <div class="form-container">
@@ -17,7 +18,7 @@
             <input type="text" id="name" name="name" placeholder="Enter your full name" required>
             
             <label for="contact">Contact Number:</label>
-            <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+            <input type="text" id="contact" name="contact" placeholder="Enter your contact number" required>
             
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" placeholder="Enter your email address" required>
@@ -33,6 +34,12 @@
             
             <button type="submit">Submit</button>
         </form>
+
+        <h1>{{success}}</h1>
     </div>
+
+   <div class="mainbtn">
+    <a class="recordbtn" href="record">record</a>
+   </div>
 </body>
 </html>

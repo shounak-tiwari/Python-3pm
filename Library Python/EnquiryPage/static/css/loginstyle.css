@@ -1,0 +1,82 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f2ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container */
+.login-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form heading */
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #004085; /* Deep blue color */
+}
+
+/* Form labels */
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #004085;
+    text-align: left;
+}
+
+/* Input fields */
+.login-container input,
+.login-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b3d9ff; /* Light blue border */
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Input field focus */
+.login-container input:focus,
+.login-container select:focus {
+    outline: none;
+    border-color: #0056b3; /* Darker blue for focus */
+    box-shadow: 0 0 4px rgba(0, 86, 179, 0.2);
+}
+
+/* Submit button */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3; /* Deep blue background */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #003d80; /* Darker blue on hover */
+}
+
+/* Error messages */
+.messages {
+    margin-top: 15px;
+    color: #cc0000; /* Red for error messages */
+    font-size: 14px;
+    text-align: left;
+}

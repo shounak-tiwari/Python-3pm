@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Centered Container */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1c1c1c; /* Dark gray background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Subtle shadow */
+}
+
+/* Form Title */
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Highlighted title color */
+}
+
+/* Labels */
+.form-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+/* Input Fields */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #2c2c2c; /* Dark input background */
+    color: #fff; /* White text in inputs */
+    font-size: 14px;
+}
+
+/* Placeholder Text */
+.form-container input::placeholder {
+    color: #888; /* Subtle placeholder color */
+}
+
+/* Dropdown */
+.form-container select {
+    appearance: none; /* Remove default browser styling */
+    background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23FFF' d='M2 0L0 2h4zM2 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 10px center;
+    background-color: #2c2c2c;
+    background-size: 10px;
+    padding-right: 30px;
+}
+
+/* Submit Button */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00; /* Yellow button color */
+    color: #000; /* Black text on button */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #ffc107; /* Slightly brighter yellow on hover */
+}
+
+/* Link Style */
+.form-container a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.form-container a:hover {
+    color: #ffc107; /* Brighter link hover */
+}
+
+.mainbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.recordbtn{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #ffcc00;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    border:1px solid transparent;
+    width: 400px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    /* margin: 10px; */
+}
